@@ -112,10 +112,8 @@ const Navbar = () => {
     // Navigation items for admin
     const adminNavItems = [
         { label: 'Home', icon: <HomeIcon />, link: '/' },
-        { label: 'Profile', icon: <AccountCircleIcon />, link: '/profile' },
         { label: 'Students', icon: <PeopleIcon />, link: '/students' },
         { label: 'School', icon: <SchoolIcon />, link: '/school' },
-        { label: 'Teacher', icon: <PersonIcon />, link: '/teacher' },
         { label: 'Registration', icon: <DateRange />, link: '/registration' },
         { label: 'Attendance', icon: <DateRange />, link: '/attendance' },
         { label: 'Fee Structure', icon: <Paid />, link: '/fee-structure' },

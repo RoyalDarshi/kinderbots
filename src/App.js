@@ -56,6 +56,7 @@ const App = () => {
                     <>
                         <Route path="/students" element={<PrivateRoute><Students /></PrivateRoute>} />
                         <Route path="/school" element={<PrivateRoute><School /></PrivateRoute>} />
+                        <Route path="/registration" element={<PrivateRoute><OnlineRegistration /></PrivateRoute>} />
                         <Route path="/school-details" element={<PrivateRoute><SchoolDetails /></PrivateRoute>} />
                         <Route path="/fee-structure" element={<PrivateRoute><FeeStructure /></PrivateRoute>} />
                         <Route path="/attendance" element={<PrivateRoute><Attendance /></PrivateRoute>} />
@@ -63,11 +64,9 @@ const App = () => {
                 )}
                 {role === 'partner' && (
                     <>
-                        <Route path="/school" element={<PrivateRoute><School /></PrivateRoute>} />
                         <Route path="/attendance" element={<PrivateRoute><Attendance /></PrivateRoute>} />
                         <Route path="/birthday" element={<PrivateRoute><Birthday /></PrivateRoute>} />
                         <Route path="/report" element={<PrivateRoute><ReportCard /></PrivateRoute>} />
-                        <Route path="/registration" element={<PrivateRoute><OnlineRegistration /></PrivateRoute>} />
                         <Route path="/assignment" element={<PrivateRoute><Assignment /></PrivateRoute>} />
                         <Route path="/online-payment" element={<PrivateRoute><OnlineFeesPayment /></PrivateRoute>} />
                         <Route path="/time-table" element={<PrivateRoute><TimeTable /></PrivateRoute>} />

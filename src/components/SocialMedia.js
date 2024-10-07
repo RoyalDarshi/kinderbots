@@ -13,20 +13,20 @@ const useStyles = makeStyles((theme) => ({
     header: {
         fontWeight: 'bold',
         marginBottom: theme.spacing(2),
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     table: {
         minWidth: 650,
     },
     tableHead: {
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: '#F26A2A',
     },
     tableCell: {
         fontWeight: 'bold',
         color: '#fff',
     },
     link: {
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         textDecoration: 'none',
         '&:hover': {
             textDecoration: 'underline',

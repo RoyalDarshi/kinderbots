@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     header: {
         fontWeight: 700,
         fontSize: '1.8rem',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(3),
         textAlign: 'center',
     },
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     },
     detailIcon: {
         marginRight: theme.spacing(2),
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     detailText: {
         fontWeight: 500,
@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.text.primary,
     },
     clickableLink: {
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         textDecoration: 'none',
         '&:hover': {
             textDecoration: 'underline',

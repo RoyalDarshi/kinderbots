@@ -21,14 +21,14 @@ const useStyles = makeStyles((theme) => ({
     },
     detailLabel: {
         fontWeight: 'bold',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     detailValue: {
         color: theme.palette.text.secondary,
     },
     sectionTitle: {
         fontWeight: 'bold',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(2),
     },
 }));

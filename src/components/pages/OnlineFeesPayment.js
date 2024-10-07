@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         marginBottom: '30px',
         fontWeight: 700,
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     tableHeadCell: {
         fontWeight: 'bold',
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     submitButton: {
         marginTop: theme.spacing(4),
         padding: theme.spacing(1.5, 0),
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: "#F26A2A",
         color: '#fff',
         fontWeight: 700,
         borderRadius: '12px',

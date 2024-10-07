@@ -28,14 +28,19 @@ const useStyles = makeStyles((theme) => ({
         margin: theme.spacing(3, 0, 2),
         padding: theme.spacing(1.5),
         fontWeight: 'bold',
+        backgroundColor: '#F26A2A',  // Set custom orange background color
+        color: '#FFFFFF',            // Set text color to white
+        '&:hover': {
+            backgroundColor: '#D65F20', // A darker shade for hover
+        },
     },
     title: {
         marginBottom: theme.spacing(2),
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     link: {
         marginTop: theme.spacing(2),
-        color: theme.palette.secondary.main,
+        color: '#F26A2A',
     },
 }));
 
@@ -100,7 +105,6 @@ const Login = () => {
                 <Button
                     type="submit"
                     variant="contained"
-                    color="primary"
                     fullWidth
                     className={classes.submitButton}
                 >

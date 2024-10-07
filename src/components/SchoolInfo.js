@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },header: {
         fontWeight: 'bold',
         marginBottom: theme.spacing(3),
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     toggleButton: {
         marginRight: theme.spacing(2),
@@ -22,12 +22,12 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: '30px',
         transition: 'background-color 0.3s ease, color 0.3s ease',
         '&:hover': {
-            backgroundColor: theme.palette.primary.light,
+            backgroundColor: '#F26A2A',
             color: '#fff',
         },
     },
     activeButton: {
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: "#F26A2A",
         color: '#fff',
     },
     content: {
@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     sectionTitle: {
         fontSize: '1.8rem',
         fontWeight: 'bold',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(2),
     },
 }));

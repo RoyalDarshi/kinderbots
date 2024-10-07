@@ -40,7 +40,7 @@ const RegistrationForm = () => {
                     textAlign: 'center',
                     marginBottom: '30px',
                     fontWeight: 600,
-                    color: '#3f51b5', // Primary theme color
+                    color: '#F26A2A', // Primary theme color
                 }}
             >
                 Online Registration & Admission
@@ -140,7 +140,7 @@ const RegistrationForm = () => {
                     sx={{
                         marginTop: 3,
                         padding: '12px 0',
-                        backgroundColor: '#3f51b5', // Primary theme color
+                        backgroundColor: '#F26A2A', // Primary theme color
                         color: '#fff',
                         fontWeight: 600,
                         '&:hover': {

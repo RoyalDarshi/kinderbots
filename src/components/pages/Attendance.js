@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     header: {
         fontWeight: 600,
         fontSize: '1.8rem',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(3),
     },
     table: {
@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.05)',
     },
     tableHead: {
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: '#F26A2A',
     },
     tableHeadText: {
         fontWeight: 700,

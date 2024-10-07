@@ -28,7 +28,7 @@ const ReportCard = () => {
     return (
         <Paper elevation={3} style={{ padding: '40px', margin: '30px auto', maxWidth: 800, borderRadius: '10px', textAlign: 'center' }}>
             <Box marginBottom={3}>
-                <Typography variant="h4" gutterBottom style={{ fontWeight: 600, color: '#3f51b5' }}>
+                <Typography variant="h4" gutterBottom style={{ fontWeight: 600, color: '#F26A2A' }}>
                     Student Report Card
                 </Typography>
             </Box>
@@ -45,10 +45,10 @@ const ReportCard = () => {
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell align="center" style={{ backgroundColor: '#3f51b5', color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px' }}>
+                            <TableCell align="center" style={{ backgroundColor: '#F26A2A', color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px' }}>
                                 Subject
                             </TableCell>
-                            <TableCell align="center" style={{ backgroundColor: '#3f51b5', color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px' }}>
+                            <TableCell align="center" style={{ backgroundColor: '#F26A2A', color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px' }}>
                                 Marks
                             </TableCell>
                         </TableRow>

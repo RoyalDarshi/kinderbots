@@ -22,13 +22,13 @@ const useStyles = makeStyles((theme) => ({
     title: {
         marginBottom: theme.spacing(2),
         fontWeight: 'bold',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     table: {
         minWidth: 650,
     },
     tableHead: {
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: "#F26A2A",
     },
     tableCellHeader: {
         fontWeight: 'bold',

@@ -15,7 +15,7 @@ import { Paid } from "@mui/icons-material";
 
 const useStyles = makeStyles((theme) => ({
     appBar: {
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: "#F26A2A",
         zIndex: theme.zIndex.drawer + 1,
         position: 'sticky',
     },
@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         color: '#fff',
         marginLeft: theme.spacing(1),
         '&:hover': {
-            backgroundColor: theme.palette.primary.light,
+            backgroundColor: '#F26A2A',
         },
     },
     iconLabel: {
@@ -56,11 +56,11 @@ const useStyles = makeStyles((theme) => ({
     },
     drawerItem: {
         '&.Mui-selected, &.Mui-selected:hover': {
-            backgroundColor: theme.palette.secondary.main,
+            backgroundColor: '#2DB8B0',
             color: '#fff',
         },
         '&:hover': {
-            backgroundColor: theme.palette.primary.light,
+            backgroundColor: '#F26A2A',
             color: '#fff',
         },
         fontFamily: theme.typography.fontFamily, // Consistent font family in drawer items
@@ -69,9 +69,9 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 500,
     },
     active: {
-        backgroundColor: theme.palette.secondary.main,
+        backgroundColor: '#2DB8B0',
         '&:hover': {
-            backgroundColor: theme.palette.secondary.main,
+            backgroundColor: '#2DB8B0',
             color: '#fff',
         },
         borderRadius: '8px',

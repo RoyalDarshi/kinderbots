@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
         fontSize: '3rem',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(1),
     },
     label: {

@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         minWidth: 650,
     },
     tableHeader: {
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: '#F26A2A',
     },
     tableHeaderCell: {
         color: '#fff',
@@ -24,12 +24,12 @@ const useStyles = makeStyles((theme) => ({
     },
     sectionTitle: {
         fontWeight: 'bold',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(2),
     },
     updateBtn: {
         color: '#fff',
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: "#F26A2A",
         '&:hover': {
             backgroundColor: theme.palette.primary.dark,
         },

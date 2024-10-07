@@ -13,17 +13,17 @@ const useStyles = makeStyles((theme) => ({
         margin: 'auto',
     },
     title: {
-        color: theme.palette.primary.dark,
+        color: "#F26A2A",
         marginBottom: theme.spacing(3),
         fontWeight: 700,
         textAlign: 'center',
         fontSize: '2rem',
-        borderBottom: `2px solid ${theme.palette.primary.main}`,
+        borderBottom: `2px solid ${"#F26A2A"}`,
         paddingBottom: theme.spacing(1),
     },
     sectionTitle: {
         marginTop: theme.spacing(4),
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         fontWeight: 600,
         textAlign: 'left',
         fontSize: '1.6rem',
@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        borderLeft: `5px solid ${theme.palette.primary.main}`,
+        borderLeft: `5px solid ${"#F26A2A"}`,
         '&:hover': {
             boxShadow: theme.shadows[6],
         },
@@ -60,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
     studentName: {
         fontWeight: 600,
         fontSize: '1.2rem',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
     },
     birthdayDate: {
         fontSize: '1.1rem',

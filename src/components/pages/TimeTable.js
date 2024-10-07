@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     header: {
         fontWeight: 600,
         fontSize: '1.8rem',
-        color: theme.palette.primary.main,
+        color: "#F26A2A",
         marginBottom: theme.spacing(3),
         textAlign: 'center',
     },
@@ -52,12 +52,12 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: '30px',
         transition: 'background-color 0.3s ease, color 0.3s ease',
         '&:hover': {
-            backgroundColor: theme.palette.primary.light,
+            backgroundColor: '#F26A2A',
             color: '#fff',
         },
     },
     activeButton: {
-        backgroundColor: theme.palette.primary.main,
+        backgroundColor: "#F26A2A",
         color: '#fff',
     },
     table: {
@@ -67,7 +67,7 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.05)',
     },
     tableHead: {
-        backgroundColor: theme.palette.primary.light,
+        backgroundColor: '#F26A2A',
     },
     tableHeadText: {
         fontWeight: 700,
